@@ -36,7 +36,6 @@ const ICONS = {
 class Currency {
   constructor(json) {
     const extraInfo = find(quick_search, { symbol: json.symbol });
-    console.log(json, extraInfo);
 
     this.id = extraInfo.id;
     this.icon = ICONS[json.symbol];
@@ -47,8 +46,6 @@ class Currency {
     this.changeRounded = round(json.change, 2);
     this.isIncrease = json.change > 0;
     this.isDecrease = json.change < 0;
-
-    console.log(this.name);
   }
 }
 
@@ -69,7 +66,6 @@ class App extends Component {
   componentDidMount () {
     axios.get(`/api/rates/v2?t=${CURRENCIES.join(',')}`)
       .then((response) => {
-        console.log(response);
         this.setState({
           rates: response.data.rates.map(rate => new Currency(rate)),
         });
@@ -80,8 +76,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.rates);
-
     return (
       <div className="App">
         <header className="App-header">
