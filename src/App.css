@@ -1,10 +1,10 @@
 .App {
   text-align: center;
-  font-family: Circe, sans-serif;
 }
 
 .App-logo {
-  height: 80px;
+  height: 64px;
+  width: 313px;
 }
 
 .App-header {
@@ -25,6 +25,10 @@
 
 .change-plain {
   color: #6a8098;
+}
+
+.title-black {
+  color: #2d2f32;
 }
 
 .text-right {

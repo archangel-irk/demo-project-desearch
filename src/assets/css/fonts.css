@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Circe";
+    src: url("../fonts/circe/circe-regular.eot");
+    src: url("../fonts/circe/circe-regular.eot?#iefix") format('embedded-opentype'), url("../fonts/circe/circe-regular.woff") format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Circe";
+    src: url("../fonts/circe/circe-bold.eot");
+    src: url("../fonts/circe/circe-bold.eot?#iefix") format('embedded-opentype'), url("../fonts/circe/circe-bold.woff") format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
