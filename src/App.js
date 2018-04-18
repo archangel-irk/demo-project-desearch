@@ -97,7 +97,7 @@ class App extends Component {
                   alt=""
                 />
               </th>
-              <th className="text-right font-light-weight">24h</th>
+              <th className="text-right font-light-weight head-time-padding">24h</th>
               <th className="text-right font-light-weight">USD</th>
             </tr>
           </thead>

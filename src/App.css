@@ -54,6 +54,10 @@
   vertical-align: middle;
 }
 
+.head-time-padding {
+  padding-right: 10px;
+}
+
 
 table {
   margin: 0 auto 100px;
@@ -72,7 +76,7 @@ th {
 }
 
 tr th {
-  padding-bottom: 40px;
+  padding: 0 15px 15px 15px;
   font-size: 16px;
 }
 
