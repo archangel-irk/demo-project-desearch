@@ -84,8 +84,18 @@ class App extends Component {
         <table className="App-intro">
           <thead>
             <tr>
-              <th colSpan={3} className="text-left title-black">
-                Popular Coins <img style={{padding: '0px 5px'}} src={arrow} className="arrow" alt="" />
+              <th colSpan={3} className="text-left table-title">
+                Popular Coins&nbsp;
+                <img
+                  style={{
+                    padding: '0px 5px',
+                    display: 'inline-block',
+                    marginBottom: '-2px',
+                  }}
+                  src={arrow}
+                  className="arrow"
+                  alt=""
+                />
               </th>
               <th className="text-right font-light-weight">24h</th>
               <th className="text-right font-light-weight">USD</th>

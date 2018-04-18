@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  padding: 160px 20px
+  padding: 163px 20px 200px;
 }
 
 .App-intro {
@@ -27,8 +27,9 @@
   color: #6a8098;
 }
 
-.title-black {
+.table-title {
   color: #2d2f32;
+  font-size: 18px;
 }
 
 .text-right {
@@ -44,24 +45,26 @@
 }
 
 .font-light-weight {
-  font-weight: 200;
+  font-weight: 500;
 }
 
 .currency-icon {
   max-width: 20px;
   max-height: 20px;
+  vertical-align: middle;
 }
 
 
 table {
   margin: 0 auto 100px;
   border-collapse: collapse;
-  width: 450px;
+  width: 360px;
 }
 
 td {
-  padding: 10px 5px;
+  padding: 12px 10px 12px;
   color: #6a8098;
+  font-size: 16px;
 }
 
 th {
@@ -70,6 +73,7 @@ th {
 
 tr th {
   padding-bottom: 40px;
+  font-size: 16px;
 }
 
 tbody tr:hover {
