@@ -1,28 +1,86 @@
 .App {
   text-align: center;
+  font-family: Circe, sans-serif;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
+  padding: 160px 20px
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.change-increase {
+  color: #469c47;
+}
+
+.change-decrease {
+  color: #fe4345;
+}
+
+.change-plain {
+  color: #6a8098;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.currency-value {
+  color: #2d2f32;
+}
+
+.font-light-weight {
+  font-weight: 200;
+}
+
+.currency-icon {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+
+table {
+  margin: 0 auto 100px;
+  border-collapse: collapse;
+  width: 450px;
+}
+
+td {
+  padding: 10px 5px;
+  color: #6a8098;
+}
+
+th {
+  color: #6a8098;
+}
+
+tr th {
+  padding-bottom: 40px;
+}
+
+tbody tr:hover {
+  background-color: rgba(35,103,200,.05);
+  cursor: pointer;
+}
+
+tbody td:first-child {
+  padding-left: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+tbody td:last-child {
+  padding-right: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
