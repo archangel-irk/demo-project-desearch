@@ -117,6 +117,11 @@ class App extends Component {
                 <td className="text-right currency-value">{rate.price}</td>
               </tr>
             ))}
+            {this.state.rates.length === 0 &&
+              <tr>
+                <td colSpan={5}>Нет данных</td>
+              </tr>
+            }
           </tbody>
         </table>
       </div>
